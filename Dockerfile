@@ -6,7 +6,7 @@ WORKDIR /home/android
 
 # install Java
 # install essential tools
-ENV JDK_VERSION=8
+ENV JDK_VERSION=11
 RUN apt-get update && \
     apt-get dist-upgrade -y && \
     apt-get install -y --no-install-recommends lib32gcc1 lib32ncurses6 lib32z1 && \
